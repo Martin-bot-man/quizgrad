@@ -1,9 +1,8 @@
-import NavBar from "../components/Navbar";
 
 function LandingPage() {
     return (
         <div>
-            <NavBar />
+            LandingPage
         </div>
     )
 }
