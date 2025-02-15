@@ -18,7 +18,7 @@ function HeroSection() {
                         <button className="bg-[#FFCD2E] text-white font-semibold py-1 px-2">Start solving</button>
                         <div className="flex items-center space-x-2 cursor-pointer">
                             <BiSolidDownArrow color="#FFCD2E" />
-                            <span className="text-[17px] ">Know More</span>
+                            <span className="text-[17px] text-[#FFCD2E]">Know More</span>
                         </div>
                 </div>
                 </div>
