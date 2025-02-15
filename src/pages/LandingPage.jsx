@@ -1,9 +1,16 @@
+import Navbar from "../components/NavBar";
+import react, {useState, useEffect}from react;
 
 function LandingPage() {
     return (
+        <>
         <div>
-            LandingPage
+           < Navbar />
         </div>
+        <div>
+        
+        </div>
+        </>
     )
 }
 
