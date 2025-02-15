@@ -1,14 +1,12 @@
+import HeroSection from "../components/HeroSection";
 import Navbar from "../components/NavBar";
-import {useState, useEffect}from 'react';
 
 function LandingPage() {
     return (
         <>
         <div>
-           < Navbar />
-        </div>
-        <div>
-        
+           <Navbar />
+           <HeroSection />
         </div>
         </>
     )

@@ -11,16 +11,16 @@ const navbars = [
 function Navbar (){
 
  return (
-        <div>
+        <div className="flex  justify-between px-10 py-3 items-center border border-b-gray-300">
             <div>
                 <img src="/static/images/QuizGrad.png" alt="Logo" />
             </div>
-            <div>
-                {navbars.map((nav)=>(<Link key={nav.id} to={nav.path}>{nav.name}</Link>))}
+            <div className="flex space-x-10 items-center">
+                <div className="space-x-10">
+                    {navbars.map((nav)=>(<Link key={nav.id} to={nav.path}>{nav.name}</Link>))}
+                </div>
 
-
-
-                <button>LOGIN</button>
+                <button className="border-2 rounded text-[#FFCD2E] font-semibold border-[#FFCD2E] px-4 py-1">LOGIN</button>
             
             </div>
         </div>
