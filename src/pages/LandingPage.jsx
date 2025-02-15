@@ -1,5 +1,5 @@
 import Navbar from "../components/NavBar";
-import react, {useState, useEffect}from react;
+import {useState, useEffect}from 'react';
 
 function LandingPage() {
     return (
