@@ -1,9 +1,13 @@
 import React from 'react'
 
-const Button = () => {
+const Button = ({name, onClick, children, ...props}) => {
   return (
-    <div className="bg-[rgba(252, 200, 34, 1)] w-64 h-16" name={name} onclick ={Onclick}></div>
-  )
+  <button className="bg-[rgba(252,200,34,1)] cursor-pointer w-5 h-6 ">
+
+  </button>
+
+      
+  );
 }
 
 export default Button

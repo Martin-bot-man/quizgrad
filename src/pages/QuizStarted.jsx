@@ -8,11 +8,17 @@ function QuizStarted(){
         <div>
             <Navbar/>
         </div>
-        <div>
-            <p>An interface design application that runs in the browser with team based collaborative design projects</p>
+        <div className="w-auto h-52 pl-4">
+            <p className="bg-[rgba(252,200,34,1)]  ">An interface design application that runs in the browser with team based collaborative design projects</p>
         </div>
         <div>
-           <Button></Button>
+           <Button className="bg-blue-100" />
+        </div>
+        <div>
+            <Button></Button>
+        </div>
+        <div>
+            <Button></Button>
         </div>
         </>
     )
