@@ -12,7 +12,10 @@ function QuizStarted(){
             <p className="bg-[rgba(252,200,34,1)]  ">An interface design application that runs in the browser with team based collaborative design projects</p>
         </div>
         <div>
-           <Button className="bg-blue-100" />
+            <Button name="FIGMA"></Button>   
+        </div>
+        <div>
+            <Button></Button>
         </div>
         <div>
             <Button></Button>
